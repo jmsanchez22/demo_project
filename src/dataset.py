@@ -2,8 +2,8 @@ import pandas as pd
 
 # 2. Creating a DataFrame
 data = {
-    "Name": ["Alice", "Bob", "Charlie", "David"],
-    "Age": [24, 27, 22, 32],
+    "Name": ["Alice", "Bob", "Charlie", "David", "Joachim"],
+    "Age": [24, 27, 22, 32, 35],
     "City": ["New York", "Los Angeles", "Chicago", "Houston"],
 }
 df = pd.DataFrame(data)
